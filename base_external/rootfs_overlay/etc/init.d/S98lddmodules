@@ -6,6 +6,7 @@ case "$1" in
         /usr/bin/scull_load || exit 1
         /usr/bin/module_load faulty || exit 1
         modprobe hello || exit 1
+        /usr/bin/aesdchar_load
         ;;
     stop)
         echo "Stopping kernel modules..."
@@ -13,6 +14,7 @@ case "$1" in
         /usr/bin/scull_unload || exit 1
         /usr/bin/module_unload faulty || exit 1
         rmmod hello || exit 1
+        /usr/bin/aesdchar_unload
         ;;
     *)
         echo "Usage: $0 {start|stop}"
