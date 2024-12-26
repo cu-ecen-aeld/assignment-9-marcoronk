@@ -1,5 +1,5 @@
-config BR2_PACKAGE_LDD
-	bool "ldd"
+config BR2_PACKAGE_CHARDRIVER
+	bool "chardriver"	
 	depends on BR2_LINUX_KERNEL
 	help
 	  Includes the writer executable, finder.sh and tester.sh in the kernel image.
