@@ -4,7 +4,7 @@
 #
 ##############################################################
 $(info    Start Build CHARDRIVER)
-CHARDRIVER_VERSION = '325d38b637b2886a7c8d906aff638396ce710f4f'
+CHARDRIVER_VERSION = '5820be7ed23c39a0c67b2642bc2c94ca393ad441'
 CHARDRIVER_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-marcoronk.git'
 CHARDRIVER_SITE_METHOD = git
 CHARDRIVER_GIT_SUBMODULES = YES
